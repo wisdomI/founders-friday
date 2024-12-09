@@ -1,4 +1,4 @@
-import FoundersFridaySection from "../FoundersFriday/page";
+import FoundersFridaySection from "../foundersfriday/page";
 
 const OfferingsSection = () => {
   const offerings = [
