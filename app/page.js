@@ -7,9 +7,9 @@ import Head from "next/head";
 import Header from "./sections/header/page";
 import Hero from "./sections/hero/hero";
 import JoinUs from "./sections/JoinUs/page";
-import LocationSection from "./sections/ComingSoon/page";
-import OfferingSection from "./sections/WhatWeOffer/page";
-import Testimonials from "./sections/testimonials/page";
+import LocationSection from "./sections/comingSoon/page";
+import OfferingSection from "./sections/whatweoffer/page";
+import Testimonials from "./sections/Testimonials/page";
 
 export default function Home() {
   return (
