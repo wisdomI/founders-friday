@@ -8,8 +8,11 @@ import Header from "./sections/header/page";
 import Hero from "./sections/hero/hero";
 import JoinUs from "./sections/JoinUs/page";
 import LocationSection from "./sections/comingSoon/page";
-import OfferingSection from "./sections/WhatWeOffer/page";
 import Testimonials from "./sections/Testimonials/page";
+import WhatWeOffer from "./sections/WhatWeOffer/page";
+// import OfferingSection from "./sections/WhatWeOffer/page";
+
+
 
 export default function Home() {
   return (
@@ -23,7 +26,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <OfferingSection />
+      <WhatWeOffer />
       <LocationSection />
       <JoinUs />
       <FAQ />
