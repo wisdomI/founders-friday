@@ -21,14 +21,14 @@ const Hero = () => {
 
   return (
     <section
-      className="bg-purple-50 py-20 px-16 bg-center font-sans"
+      className="bg-purple-50 py-20 px-16 sm:px-2 bg-center font-sans"
       style={{
         backgroundImage: isMediumScreen ? "url('/Vector 1.png')" : "none",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center -20px",
       }}
     >
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div className="container mx-auto sm:mx-0 flex flex-col md:flex-row items-center justify-between">
         <HeroText />
         {/* Render ImageCollage only on medium and larger screens */}
         {isMediumScreen && <ImageCollage />}

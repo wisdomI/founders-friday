@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const HeroText = () => {
   return (
     <motion.div
-      className="text-left md:w-1/2"
+      className="text-left md:w-1/2 px-0 sm:px-4"
       initial={{ x: -100 }}
       animate={{ x: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
@@ -27,12 +27,32 @@ const HeroText = () => {
       <p className="text-purple-600 mt-5 font-bold text-sm">
         Join Us for our next meetup on the 26th of July 2024
       </p>
-      <div className="flex flex-row gap-4 mt-28">
-        <Image src="/Ellipse 3.svg" alt="" width={50} height={50} />
-        <Image src="/Ellipse 2.png" alt="" width={50} height={50} />
-        <Image src="/Ellipse 4.svg" alt="" width={50} height={50} />
-        <Image src="/Ellipse 1.svg" alt="" width={50} height={50} />
-        <Image src="/Ellipse 5.svg" alt="" width={50} height={50} />
+      <div className="flex flex-row sm:flex-col sm:flex md:flex-col gap-4  mt-28">
+        <img
+          src="/Ellipse 3.svg"
+          alt=""
+          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+        />
+        <img
+          src="/Ellipse 2.png"
+          alt=""
+          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+        />
+        <img
+          src="/Ellipse 4.svg"
+          alt=""
+          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+        />
+        <img
+          src="/Ellipse 1.svg"
+          alt=""
+          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+        />
+        <img
+          src="/Ellipse 5.svg"
+          alt=""
+          className="w-8 sm:w-16 md:w-20 lg:w-24 xl:w-28"
+        />
       </div>
 
       <a className="flex gap-2 mt-5 whitespace-nowrap" href="#register">

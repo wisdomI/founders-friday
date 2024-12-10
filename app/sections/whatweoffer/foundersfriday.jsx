@@ -64,7 +64,7 @@ export default function FoundersFriday() {
           <div className="grid md:grid-cols-2 gap-10">
             {/* Left: Benefits */}
             <motion.div
-              className="grid grid-cols-2 border border-purple-400 gap-6 bg-gray-50 rounded-lg shadow-md justify-center p-6 sm:p-10"
+              className="grid grid-cols-1 sm:grid-cols-2 border border-purple-400 gap-6 bg-gray-50 rounded-lg shadow-md justify-center p-6 sm:p-10"
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}

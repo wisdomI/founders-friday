@@ -87,7 +87,7 @@ const Testimonials = () => {
       >
         What Do Our Attendees Have To Say?
       </motion.h2>
-      <div className="flex justify-between items-center mb-10">
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-10">
         <motion.p
           className="text-gray-500 text-lg mx-auto"
           variants={itemVariants}
@@ -110,7 +110,7 @@ const Testimonials = () => {
         </motion.div>
       </div>
       <motion.div
-        className="flex justify-center gap-8"
+        className="flex flex-col sm:flex-row justify-center gap-4"
         variants={containerVariants}
       >
         {currentTestimonials.map((testimonial, index) => (
@@ -123,7 +123,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
-                className="w-full h-full object-cover p-2"
+                className="p-2 w-full h-full object-cover"
               />
             </div>
             <h3 className="font-semibold text-lg text-gray-900 mb-1">
