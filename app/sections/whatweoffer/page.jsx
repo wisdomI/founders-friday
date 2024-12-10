@@ -1,3 +1,5 @@
+"use client";
+
 import FoundersFriday from "./foundersfriday";
 import React from "react";
 
