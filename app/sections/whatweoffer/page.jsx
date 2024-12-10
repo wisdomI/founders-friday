@@ -1,6 +1,7 @@
-import FoundersFridaySection from "../foundersfriday/page";
+import FoundersFriday from "./foundersfriday";
+import React from "react";
 
-const OfferingsSection = () => {
+export default function WhatWeOffer() {
   const offerings = [
     {
       title: "Monthly Meetups",
@@ -74,10 +75,8 @@ const OfferingsSection = () => {
         </div>
       </div>
       <div className="mt-36">
-        <FoundersFridaySection />
+        <FoundersFriday />
       </div>
     </section>
   );
-};
-
-export default OfferingsSection;
+}

@@ -1,21 +1,23 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 
-const FoundersFridaySection = () => {
+export default function FoundersFriday() {
   return (
     <section className="bg-transparent py-16 px-4 md:px-8">
       <div className="container mx-auto space-y-20">
         {/* Section 1 */}
         <motion.div
           className="grid md:grid-cols-2 gap-10 items-center"
-          initial={{ opacity: 0, x: -100 }} // Starts offscreen and invisible
-          whileInView={{ opacity: 1, x: 0 }} // Animates to its normal position and becomes visible
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
         >
           <div className="space-y-6">
             <h3 className="text-purple-600 font-bold text-lg">
-              Founders Friday
+              Founder&apos;s Friday
             </h3>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
               What Happens At <br /> Founders Friday
@@ -33,12 +35,12 @@ const FoundersFridaySection = () => {
           </div>
           <div className="relative flex justify-center md:justify-end">
             <img
-              src="IMG1_sec section.png"
+              src="/IMG1_sec section.png"
               alt="Founders Friday 2"
               className="absolute left-10 md:left-32 rounded-lg shadow-lg w-[80%] md:w-[60%] z-0"
             />
             <img
-              src="IMG2_sec section.png"
+              src="/IMG2_sec section.png"
               alt="Founders Friday 1"
               className="rounded-lg top-12 md:top-24 shadow-lg w-[80%] md:w-[60%] relative z-10"
             />
@@ -47,7 +49,7 @@ const FoundersFridaySection = () => {
 
         {/* Section 2 */}
         <motion.div
-          className="space-y-10 pt-20 "
+          className="space-y-10 pt-20"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -119,9 +121,8 @@ const FoundersFridaySection = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-4">
                 How To Sponsor
               </h3>
-
               <p className="text-gray-600 mb-6">
-                <i> Ready to make an impact? </i>{" "}
+                <i>Ready to make an impact?</i>
               </p>
               <p className="text-sm text-gray-600 mb-6">
                 Fill out the form below or contact us at [email or phone number]
@@ -178,6 +179,4 @@ const FoundersFridaySection = () => {
       </div>
     </section>
   );
-};
-
-export default FoundersFridaySection;
+}

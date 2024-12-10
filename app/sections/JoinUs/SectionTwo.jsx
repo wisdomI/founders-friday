@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const SectionTwo = () => {
+export default function SectionTwo() {
   return (
     <div className="bg-transparent py-16 px-4">
       <div className="container flex flex-col md:flex-row items-center gap-4">
@@ -49,6 +49,4 @@ const SectionTwo = () => {
       </div>
     </div>
   );
-};
-
-export default SectionTwo;
+}

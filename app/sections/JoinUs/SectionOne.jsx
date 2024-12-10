@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionOne = () => {
+export default function SectionOne() {
   return (
     <div className="flex flex-col gap-2 justify-center my-20">
       <h1 className="text-bold text-gray-900 font-bold text-2xl flex justify-center align-middle">
@@ -12,6 +12,4 @@ const SectionOne = () => {
       </p>
     </div>
   );
-};
-
-export default SectionOne;
+}

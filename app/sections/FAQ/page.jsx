@@ -1,7 +1,9 @@
+"use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 
-const FAQ = () => {
+export default function FAQ() {
   const containerVariants = {
     hidden: { opacity: 0, x: -50 },
     visible: {
@@ -54,6 +56,4 @@ const FAQ = () => {
       </motion.div>
     </motion.section>
   );
-};
-
-export default FAQ;
+}

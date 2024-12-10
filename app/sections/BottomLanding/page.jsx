@@ -1,8 +1,11 @@
-import HeroRegButton from "../../components/HeroRegButton";
+"use client";
+
+// import HeroRegButton from "../../components/HeroRegButton";
+
 import React from "react";
 import { motion } from "framer-motion";
 
-const LandingSection = () => {
+export default function BottomLanding() {
   // Animation Variants
   const fadeInUp = {
     hidden: { opacity: 0, y: 50 },
@@ -55,7 +58,13 @@ const LandingSection = () => {
         <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
           Want To Be A Part Of Abuja’s Biggest Tech <br /> Community?
         </h2>
-        <HeroRegButton />
+        <a
+          href="#register"
+          className="inline-flex w-auto items-center border border-purple-600 text-purple-600 hover:text-white transition px-8 py-3 rounded-full text-lg hover:bg-purple-500"
+        >
+          Register For Our Next Event
+          <img src="/Right arrow.svg" alt="arrow" className="mx-2" />
+        </a>
       </motion.main>
 
       {/* Footer */}
@@ -90,25 +99,25 @@ const LandingSection = () => {
           <nav className="flex flex-col md:flex-row gap-4 md:gap-6 text-black text-lg">
             <a
               href="#home"
-              className="hover:text-purple-500 active:text-purple-700 transition-colors"
+              className="hover:text-purple-500 font-semibold active:text-purple-700 transition-colors"
             >
               Home
             </a>
             <a
               href="#about"
-              className="hover:text-purple-500 active:text-purple-700 transition-colors"
+              className="hover:text-purple-500 font-semibold active:text-purple-700 transition-colors"
             >
               About Us
             </a>
             <a
               href="#gallery"
-              className="hover:text-purple-500 active:text-purple-700 transition-colors"
+              className="hover:text-purple-500 font-semibold active:text-purple-700 transition-colors"
             >
               Gallery
             </a>
             <a
               href="#contact"
-              className="hover:text-purple-500 active:text-purple-700 transition-colors"
+              className="hover:text-purple-500 font-semibold active:text-purple-700 transition-colors"
             >
               Contact Us
             </a>
@@ -117,6 +126,4 @@ const LandingSection = () => {
       </motion.footer>
     </motion.div>
   );
-};
-
-export default LandingSection;
+}

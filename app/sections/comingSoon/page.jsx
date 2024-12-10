@@ -25,7 +25,8 @@ const LocationSection = () => {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  });
+  // }, []);
 
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true });

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const Header = () => {
@@ -10,25 +11,37 @@ const Header = () => {
       <div className="container mx-auto px-4 flex items-center justify-between py-4">
         {/* Logo and Title */}
         <div className="flex items-center gap-3">
-          <img src="logo.png" alt="logo-icon" height={50} width={50} />
+          <Image src="/logo.png" alt="logo-icon" height={50} width={50} />
           <h1 className="text-xl md:text-2xl font-bold text-gray-900">
-            Founder's Friday
+            Founder&apos;s Friday
           </h1>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
           <nav className="flex gap-6">
-            <a href="#home" className="text-gray-600 hover:text-purple-600">
+            <a
+              href="#home"
+              className="text-gray-600 font-semibold hover:text-purple-600"
+            >
               Home
             </a>
-            <a href="#about" className="text-gray-600 hover:text-purple-600">
+            <a
+              href="#about"
+              className="text-gray-600 font-semibold hover:text-purple-600"
+            >
               About Us
             </a>
-            <a href="#gallery" className="text-gray-600 hover:text-purple-600">
+            <a
+              href="#gallery"
+              className="text-gray-600 font-semibold hover:text-purple-600"
+            >
               Gallery
             </a>
-            <a href="#contact" className="text-gray-600 hover:text-purple-600">
+            <a
+              href="#contact"
+              className="text-gray-600 font-semibold hover:text-purple-600"
+            >
               Contact Us
             </a>
           </nav>

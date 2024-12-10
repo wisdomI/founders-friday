@@ -14,12 +14,12 @@ const ImageCollage = () => {
             transition={{ delay: 0.3, duration: 0.5 }}
           >
             <img
-              src="frame 1 image.png"
+              src="/frame 1 image.png"
               alt="Founders Friday GIF"
-              className="w-1/8 h-[50%] md:w-full md:h-[30%] lg:w-full lg:h-[40%] rotate-6"
+              className="rotate-6"
             />
             <p className="flex align-middle justify-center font-cursive font-bold">
-              Founder's Friday
+              Founder&apos;s Friday
             </p>
           </motion.div>
 
@@ -33,10 +33,10 @@ const ImageCollage = () => {
             <img
               src="/frame 1 image.png"
               alt="Event Image 2"
-              className="w-1/8 h-[50%] rotate-6"
+              className="rotate-6"
             />
             <p className="flex align-middle justify-center font-cursive font-bold">
-              Founder's Friday
+              Founder&apos;s Friday
             </p>
           </motion.div>
         </div>
@@ -49,9 +49,9 @@ const ImageCollage = () => {
             transition={{ delay: 0.7, duration: 0.5 }}
           >
             <img
-              src="/Frame 20.png"
+              src="/frame 20.png"
               alt="Event Image 3"
-              className="w-56 h-50 rounded-lg transform rotate-3"
+              className="rounded-lg transform rotate-3 w-40 h-40"
             />
           </motion.div>
           <motion.div
@@ -61,9 +61,9 @@ const ImageCollage = () => {
             transition={{ delay: 0.9, duration: 0.5 }}
           >
             <img
-              src="Frame 4.png"
+              src="/frame 4.png"
               alt="Event Image 4"
-              className="w-24 h-24 transform -rotate-3"
+              className="transform -rotate-3 w-16 h-16"
             />
           </motion.div>
         </div>
