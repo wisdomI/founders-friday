@@ -1,4 +1,3 @@
-// pages/index.js
 "use client";
 
 import BottomLanding from "./sections/BottomLanding/page";
@@ -10,9 +9,6 @@ import JoinUs from "./sections/JoinUs/page";
 import LocationSection from "./sections/comingSoon/page";
 import Testimonials from "./sections/Testimonials/page";
 import WhatWeOffer from "./sections/WhatWeOffer/page";
-// import OfferingSection from "./sections/WhatWeOffer/page";
-
-
 
 export default function Home() {
   return (
