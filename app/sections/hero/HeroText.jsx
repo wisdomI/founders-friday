@@ -27,31 +27,31 @@ const HeroText = () => {
       <p className="text-purple-600 mt-5 font-bold text-sm">
         Join Us for our next meetup on the 26th of July 2024
       </p>
-      <div className="flex flex-row sm:flex-col sm:flex md:flex-col gap-4  mt-28">
+      <div className="flex flex-row sm:flex  gap-4 mt-28">
         <img
           src="/Ellipse 3.svg"
           alt=""
-          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+          className="w-8 sm:w-8 md:w-14 lg:w-18 xl:w-20"
         />
         <img
           src="/Ellipse 2.png"
           alt=""
-          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+          className="w-8 sm:w-8 md:w-14 lg:w-18 xl:w-20"
         />
         <img
           src="/Ellipse 4.svg"
           alt=""
-          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+          className="w-8 sm:w-8 md:w-14 lg:w-18 xl:w-20"
         />
         <img
           src="/Ellipse 1.svg"
           alt=""
-          className="w-8 sm:w-8 md:w-20 lg:w-24 xl:w-28"
+          className="w-8 sm:w-8 md:w-14 lg:w-18 xl:w-20"
         />
         <img
           src="/Ellipse 5.svg"
           alt=""
-          className="w-8 sm:w-16 md:w-20 lg:w-24 xl:w-28"
+          className="w-8 sm:w-16 md:w-14 lg:w-18 xl:w-20"
         />
       </div>
 
